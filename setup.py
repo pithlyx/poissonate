@@ -10,7 +10,7 @@ setup(
     author_email='pithlyx@gmail.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url='https://github.com/gmyrianthous/example-publish-pypi',
+    url='https://github.com/pithlyx/poissonate',
     keywords='poisson disc sampling',
     install_requires=[
         'numpy',
