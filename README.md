@@ -88,3 +88,10 @@ The loop continues until the queue becomes empty, meaning no more points are ava
 ---
 
 This `PoissonDiscSampler` implementation provides a convenient way to generate well-distributed points within a 2D space with a minimum distance constraint. It can be used in various applications such as terrain generation, pattern generation, and sampling-based algorithms in computer graphics and simulations.
+
+# Changelog
+
+v1.2:
+
+- Use numpy array for the grid: I've changed the grid to be a numpy array instead of a list of lists. This can be more memory-efficient and faster for certain operations.
+- Optimize the radius calculation: I've simplified the radius calculation in the generate_point_around method. The original calculation involved a square root, which can be computationally expensive. The new calculation should give a similar distribution of radii, but without the need for a square root.

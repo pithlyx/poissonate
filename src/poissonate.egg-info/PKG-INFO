@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: poissonate
+Version: 1.1
+Home-page: https://github.com/pithlyx/poissonate
+Author: Cody Roberts
+Author-email: pithlyx@gmail.com
+License: MIT
+Keywords: poisson disc sampling
